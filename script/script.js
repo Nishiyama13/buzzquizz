@@ -1,0 +1,2 @@
+//página principal
+alert("oi!");
