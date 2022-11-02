@@ -1,2 +1,2 @@
 //página principal
-alert("oi!");
+alert("oi! Index");
