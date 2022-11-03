@@ -1,3 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: lightgreen;
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #ec362d;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+}
+
+header h1 {
+  color: #ffffffff;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+}
+.imagemTopoPg2 {
+  width: 100%;
+  background-image: url("../assets/castelo.png");
+  background-position-y: center;
+  background-size: cover;
+  height: 227px;
+}
+
+article h2 {
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 676px;
+  max-width: 759px;
+  padding: 27px 37px;
+}
+
+.quest {
+  height: 138px;
+  background-color: #434ca0;
+
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quest h3 {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card-itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*
+.card-itens li {
+  width: 330px;
+}
+
+.card-itens img {
+  max-height: 175px;
+  width: 100%;
+}
+*/
+
+p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: aqua;
+  }
+  .imagemTopoPg2 {
+    height: 142px;
+  }
+  article h2 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .card h3 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+  }
 }
