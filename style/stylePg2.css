@@ -30,9 +30,14 @@ header h1 {
   line-height: 43px;
   letter-spacing: 0em;
 }
+a {
+  text-decoration: none;
+}
 .imagemTopoPg2 {
   width: 100%;
   background-image: url("../assets/castelo.png");
+  background-repeat: no-repeat;
+  background-position: top left;
   background-position-y: center;
   background-size: cover;
   height: 227px;
@@ -77,7 +82,7 @@ article h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/*
+
 .card-itens li {
   width: 330px;
 }
@@ -86,7 +91,6 @@ article h2 {
   max-height: 175px;
   width: 100%;
 }
-*/
 
 p {
   font-size: 20px;
@@ -94,6 +98,21 @@ p {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+/*Selecionando opção do card*/
+.custom-radiobox input {
+  display: none;
+}
+.custom-radiobox input:checked + label::before {
+  position: absolute;
+
+  background-position: center;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+input[type="radio"]:checked + label {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 375px) {
