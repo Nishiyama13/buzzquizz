@@ -19,57 +19,150 @@
     <article class="imagemTopoPg2">
       <h2>O quão Potterhead é você?</h2>
     </article>
-    <article>
-      <ul>
-        <li>
-          <div class="card">
-            <div class="quest">
-              <a href="#">
-                <h3>Em qual animal Olho-Tonto Moody transfigurou Malfoy?</h3>
-              </a>
+    <article class="cards-quest-box">
+      <section>
+        <ul id="card-quest-list">
+          <li id="card-quest1">
+            <div class="card">
+
+              <div class="quest">
+                <h3>Em qual animal Olho-Tonto Moody transfigurou Malfoy?
+                </h3>
+
+              </div>
+
+              <ul class="card-itens" id="quest1" onclick="carregarQuizzes()">
+
+                <li class="custom-radiobox alternativa">
+                  <input type="radio" name="resposta-selecionada" id="op1">
+                  <label for="op1">
+                    <div class="img-op" id="img1">
+                      <img src="./assets/image 3.png" alt="Imagem1">
+                    </div>
+                    <p>Gatíneo</p>
+                  </label>
+                </li>
+
+                <li class="custom-radiobox">
+                  <input type="radio" name="resposta-selecionada" id="op2">
+                  <label for="op2">
+                    <div class="img-op" id="img2">
+                      <img src="./assets/image 4.png" alt="Imagem2">
+                    </div>
+                    <p>Ratata</p>
+                  </label>
+                </li>
+
+                <li class="custom-radiobox">
+                  <input type="radio" name="resposta-selecionada" id="op3">
+                  <label for="op3">
+                    <div class="img-op" id="img3">
+                      <img src="./assets/image 7.png" alt="Imagem3">
+                    </div>
+                    <p>Sapo gordo</p>
+                  </label>
+                </li>
+
+                <li class="custom-radiobox">
+                  <input type="radio" name="resposta-selecionada" id="op4">
+                  <label for="op4">
+                    <div class="img-op" id="img4">
+                      <img id="img4" src="./assets/image 8.png" alt="Imagem4">
+                    </div>
+                    <p>Mustela putorios (o Furão)</p>
+                  </label>
+                </li>
+
+              </ul>
             </div>
-            <ul class="card-itens">
-              <li class="custom-radiobox">
-                <input type="radio" name="resposta-selecionada" id="op1">
-                <label for="op1">
-                  <img src="./assets/image 3.png" alt="Imagem1">
-                  <p>Gatíneo</p>
-                </label>
-              </li>
-              <li class="custom-radiobox">
-                <input type="radio" name="resposta-selecionada" id="op2">
-                <label for="op2">
-                  <img src="./assets/image 4.png" alt="Imagem2">
-                  <p>Ratata</p>
-                </label>
-              </li>
-              <li class="custom-radiobox">
-                <input type="radio" name="resposta-selecionada" id="op3">
-                <label for="op3">
-                  <img src="./assets/image 7.png" alt="Imagem3">
-                  <p>Sapa gordo</p>
-                </label>
-              </li>
-              <li class="custom-radiobox">
-                <input type="radio" name="resposta-selecionada" id="op4">
-                <label for="op4">
-                  <img src="./assets/image 8.png" alt="Imagem4">
-                  <p>Mustela putorios (o Furão)</p>
-                </label>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
+          </li>
+          <!--end card-quest-1 -->
+
+          <li id="card-quest2">
+            <div class="card">
+
+              <div class="quest">
+                <h3>Em qual animal Olho-Tonto Moody transfigurou Malfoy?
+                </h3>
+
+              </div>
+
+              <ul class="card-itens" id="quest2" onclick="carregarQuizzes()">
+
+                <li class="custom-radiobox alternativa">
+                  <input type="radio" name="resposta-selecionada" id="op5">
+                  <label for="op5">
+                    <div class="img-op" id="img1">
+                      <img src="./assets/araras.png" alt="Imagem1">
+                    </div>
+                    <p>Gatíneo</p>
+                  </label>
+                </li>
+
+                <li class="custom-radiobox">
+                  <input type="radio" name="resposta-selecionada" id="op6">
+                  <label for="op6">
+                    <div class="img-op" id="img2">
+                      <img src="./assets/araras_2.png" alt="Imagem2">
+                    </div>
+                    <p>Ratata</p>
+                  </label>
+                </li>
+
+                <li class="custom-radiobox">
+                  <input type="radio" name="resposta-selecionada" id="op7">
+                  <label for="op7">
+                    <div class="img-op" id="img7">
+                      <img src="./assets/araras_3.png" alt="Imagem7">
+                    </div>
+                    <p>Sapo gordo</p>
+                  </label>
+                </li>
+
+                <li class="custom-radiobox">
+                  <input type="radio" name="resposta-selecionada" id="op8">
+                  <label for="op8">
+                    <div class="img-op" id="img8">
+                      <img id="img8" src="./assets/araras_7.png" alt="Imagem8">
+                    </div>
+                    <p>Mustela putorios (o Furão)</p>
+                  </label>
+                </li>
+                <!--end card-quest-2 -->
+
+              </ul>
+            </div>
+          </li>
+
+
+        </ul>
+      </section>
+
     </article>
 
+    <article class="card-finalizacao">
+      <section class="topo-card-finalizacao">
+        <div class="titulo-finalizacao">
+          <h3>88% de acerto:você é praticamente um aluno de Hogwarts!</h3>
+        </div>
+      </section>
 
-
-
-
+      <section class="body-finalizacao">
+        <div id="image-finalizacao">
+          <img src="assets/dumbledore.png" alt="imagem card finalização">
+        </div>
+        <div class="texto-finalizacao">
+          <p>Parabéns Potterhead! Bem-vinx a Hogwarts, aproveite o loop infinito de comida e clique no botão abaixo para usar o vira-tempo e reiniciar este teste.</p>
+        </div>
+      </section>
+    </article>
   </main>
-  <button><a href="index.html">Página 1</a></button>
-  <button><a href="pg3.html">Página 3</a></button>
+  <footer>
+    <button>Reiniciar Quizz</button>
+    <a href="index.html">Voltar pra home</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./script/script2.js"></script>
 </body>
 
